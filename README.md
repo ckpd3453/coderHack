@@ -31,11 +31,11 @@
    - Handle common errors and return appropriate HTTP codes (Ex. 404, User not found)
 
 **Endpoints**
-GET /users - Retrieve a list of all registered users
-GET /users/{userId} - Retrieve the details of a specific user
-POST /users - Register a new user to the contest
-PUT /users/{userId} - Update the score of a specific user
-DELETE /users/{userId} - Deregister a specific user from the contest
+- GET /users - Retrieve a list of all registered users
+- GET /users/{userId} - Retrieve the details of a specific user
+- POST /users - Register a new user to the contest
+- PUT /users/{userId} - Update the score of a specific user
+- DELETE /users/{userId} - Deregister a specific user from the contest
 
 
 
